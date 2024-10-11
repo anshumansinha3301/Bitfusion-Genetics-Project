@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load gene expression data (example data)
-# For demonstration, generate synthetic data
+# For demonstration, generate synthetic data  
 np.random.seed(0)
 genes = [f'Gene_{i}' for i in range(1, 101)]
 samples = [f'Sample_{i}' for i in range(1, 21)]
